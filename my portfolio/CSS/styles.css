@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg {
+    background: #010101;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    color: white;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.left h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.port {
+    color: goldenrod;
+}
+
+.right {
+    margin: 10px 0;
+    padding: 10px 0;
+
+}
+
+.right ul li {
+    display: inline;
+    margin: 15px;
+}
+
+.right ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.right ul li a:hover {
+    background: goldenrod;
+    color: #010101;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 5px;
+    ;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.page1 {
+    text-align: center;
+    color: white;
+}
+
+.page1 h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.page1 p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.page1 .btn {
+    background: goldenrod;
+    color: #010101;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.page1 .btn:hover {
+    background: #010101;
+    color: goldenrod;
+    text-decoration: underline;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.page2 {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    box-shadow: 1px 1px 10px 5px goldenrod;
+    box-sizing: border-box;
+}
+
+.page2 h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.page2 p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.page3 {
+    height: 100vh;
+    color: white;
+    box-shadow: 1px 1px 10px 5px goldenrod;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.page3 .grid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    box-sizing: border-box;
+    margin-top: 5%;
+    gap: 10%;
+    margin-left: 15%;
+}
+
+.page3 h2 {
+    font-size: 40px;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.page3 h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+.page3 ul {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.page3 ul li {
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
+.program {
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.program:hover {
+    background-color: goldenrod;
+    padding: 20px 0px;
+    color: #010101;
+    transition: 0.5s;
+}
+
+.data {
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.data:hover {
+    background-color: goldenrod;
+    padding: 20px 0px;
+    color: #010101;
+    transition: 0.5s;
+}
+
+.tools {
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.tools:hover {
+    background-color: goldenrod;
+    padding: 20px 0px;
+    color: #010101;
+    transition: 0.5s;
+}
+
+.softskills {
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+.softskills:hover {
+    background-color: goldenrod;
+    padding: 20px 0px;
+    color: #010101;
+    transition: 0.5s;
+}
+
+.page4 {
+    height: 100vh;
+    color: white;
+    box-shadow: 1px 1px 10px 5px goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.page4 h2 {
+    font-size: 40px;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.project-list {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.project-item {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.page4 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    background-color: goldenrod;
+    height: 20%;
+    color: #010101;
+    padding: 20px 0;
+    box-shadow: 1px 1px 10px 5px goldenrod;
+    margin-top: 30px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+.footer form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.footer form input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+
+.footer button {
+    padding: 10px 25px;
+    background: #010101;
+    color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.footer button:hover {
+    background: white;
+    color: goldenrod;
+    transition: 0.5s;
+}
+
+.follow {
+    margin: 10px 0;
+    padding: 10px 0;
+
+}
+
+.follow h3 {
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.follow ul {
+    list-style: none;
+    padding: 0;
+}
+
+.follow ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.follow ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-linkedin,
+.bi-github,
+.bi-instagram {
+    color: white;
+    font-size: 24px;
+}
+
+.bi-facebook:hover {
+    color: #010101;
+}
+
+.bi-instagram:hover {
+    color: #010101;
+}
+
+.bi-linkedin:hover {
+    color: #010101;;
+}
+
+.bi-twitter:hover {
+    color: #010101;
+}
